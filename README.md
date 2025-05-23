@@ -37,6 +37,7 @@ npm run dev
 
 - [ ] Weitere React Komponente für weniger Code-Duplication
 - [ ] Modulbeschreibungen/-infos erstellen und beim Klicken anzeigen
+- [ ] CSS aufräumen
 - [ ] Besseres Design (evtl. mit Filterfunktion)
 - [ ] Bessere UI/UX für verschiedene Bildschirmgrößen
 - [ ] Integration eines einfachen Node.js/Express-Backends zur Verwaltung der Moduldaten
