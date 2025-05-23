@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 # unneeded src files
-src/Card_backup
+src/Card_backup.jsx
