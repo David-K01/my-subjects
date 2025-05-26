@@ -42,7 +42,7 @@ export const category2 = [
         id: 1,
         name: 'Rechnerorganisation',
         description: 'Description',
-        img: './assets/rorg2.jpg'
+        img: './assets/rorg.jpg'
     },
     {
         id: 2,
@@ -141,7 +141,7 @@ export const category7 = [
         id: 1,
         name: 'Interdisziplinäres Medienprojekt',
         description: 'Description',
-        img: './assets/imedi.jpg'
+        img: './assets/imedi.png'
     },
     {
         id: 2,
@@ -174,13 +174,13 @@ export const category10 = [
         id: 2,
         name: 'Mensch und Maschine: Wie Künstliche Intelligenz unser Leben verändert',
         description: 'Description',
-        img: './assets/mum.jpg'
+        img: './assets/mum.png'
     },
     {
         id: 3,
         name: 'Einführung in die IT-Sicherheit',
         description: 'Description',
-        img: './assets/eits.jpg'
+        img: './assets/eits.png '
     },
     {
         id: 4,
