@@ -2,12 +2,12 @@ function Buttons(){
     
     const slideLeft = (e) => {
         var slider = e.currentTarget.parentElement.parentElement.querySelector('div').querySelector('.slajder')
-        slider.scrollLeft -= 500
+        slider.scrollLeft -= 534
     }
 
     const slideRight = (e) => {
         var slider = e.currentTarget.parentElement.parentElement.querySelector('div').querySelector('.slajder')
-        slider.scrollLeft += 500
+        slider.scrollLeft += 534
     }
 
     return(

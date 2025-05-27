@@ -1,8 +1,6 @@
 @import "tailwindcss";
 
-#root{
-  text-align: center;
-}
+
 
 body {
   background: linear-gradient(45deg, #f8fafc, #e2e8f0);
@@ -42,31 +40,32 @@ h1 {
   }
 }
 
-.card1 {
-  width: 250px;
-  height: 300px;
-  border: hsl(0, 0%, 80%) 1px solid;
-  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.2);
-  border-radius: 5%;
-  padding: 5%;
-  margin: 20px;
-  display: inline-block;
+.card-container {
+  perspective: 1000px;
 }
 
-.card1 .card1-image{
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  object-fit: cover;
+.actual-card {
+  position: relative;
+  transition: transform 700ms;
+  transform-style: preserve-3d;
 }
 
-.card1 .card1-description{
-  color: #324f68;
+.card-container:hover .actual-card {
+  transform: rotateY(180deg);
+}
+
+.card-front, 
+.card-back{
+  backface-visibility: hidden;
+  position: absolute;
+}
+
+.card-back {
+  transform: rotateY(180deg);
 }
 
 .hide-scrollbar {
   scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE und Edge */
 }
 .hide-scrollbar::-webkit-scrollbar {
   display: none; /* Chrome, Safari, Opera */
