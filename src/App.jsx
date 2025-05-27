@@ -6,15 +6,6 @@ import * as data from './moduleData.js'
 
 function App() {
 
-  const slideLeft = (e) => {
-    var slider = e.currentTarget.parentElement.parentElement.querySelector('div').querySelector('.slajder')
-    slider.scrollLeft -= 500
-  }
-
-  const slideRight = (e) => {
-    var slider = e.currentTarget.parentElement.parentElement.querySelector('div').querySelector('.slajder')
-    slider.scrollLeft += 500
-  }
 
   return(
     <>
